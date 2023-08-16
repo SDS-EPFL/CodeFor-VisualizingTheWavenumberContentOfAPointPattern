@@ -35,7 +35,7 @@ x = range(-0.5, 0.5, 100)
 h_evaluated = @showprogress "evaluating ir... " [Makie.pseudolog10.(h[i].(x, x'))
                                                  for i in 1:4]
 
-ax = [Axis(f[2, i], aspect = 1) for i in 1:4]
+ax = [Axis(figure[2, i], aspect = 1) for i in 1:4]
 hidedecorations!.(ax)
 hidespines!.(ax)
 for i in 1:4
