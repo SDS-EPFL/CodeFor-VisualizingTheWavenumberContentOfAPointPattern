@@ -1,5 +1,7 @@
 # Code for the paper: visualizing the wavenumber content of a point pattern
 
+[![DOI](https://zenodo.org/badge/679169174.svg)](https://zenodo.org/badge/latestdoi/679169174)
+
 To run the code, follow these steps:
 
 1. Clone this repository
