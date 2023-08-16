@@ -1,0 +1,18 @@
+[deps]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+GaussianRandomFields = "e4b2fa32-6e09-5554-b718-106ed5adafe9"
+Meshes = "eacbb407-ea5a-433e-ab97-5258b1ca43fa"
+PointProcessFilters = "50b54956-0e70-4879-bb4d-ebb4b1666b71"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+RCall = "6f49c342-dc21-5d91-9882-a32aef131414"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+[compat]
+CairoMakie = "=0.10.5"
+GaussianRandomFields = "=2.1.6"
+Meshes = "=0.34.11"
+PointProcessFilters = "=0.1.0"
+SpecialFunctions = "=2.3.1"
+ProgressMeter = "=1.7.2"
+RCall = "=0.13.15"
+julia = "=1.9"
