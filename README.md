@@ -17,6 +17,7 @@ To run the code, follow these steps:
 5. Run the file
 
 See the [Julia documentation](https://pkgdocs.julialang.org/v1/environments/#Using-someone-else's-project) for more details on environments.
+
 ## Files
 
 - `Fig1_introexample.jl`: Figure 1, a Thomas process example.
@@ -56,5 +57,11 @@ loaded via a namespace (and not attached):
 [13] tensor_1.5
 ```
 
+## General implementation
+
+Note that the methodology of the paper is in the package [PointProcessFilters.jl](https://github.com/SDS-EPFL/PointProcessFilters.jl)
+
 ## References
-- T. A. Rajala, S. C. Olhede, J. P. Grainger, and D. J. Murrell, “What is the Fourier transform of a spatial point process?” IEEE Transactions on Information Theory, 2023.
+- Grainger, J. P., Rajala, T. A., Murrell, D. J., & Olhede, S. C. (2023). Visualizing the Wavenumber Content of a Point Pattern. arXiv preprint arXiv:2306.04198.
+- T. A. Rajala, S. C. Olhede, J. P. Grainger, and D. J. Murrell, "What is the Fourier transform of a spatial point process?" IEEE Transactions on Information Theory, 2023.
+- Jake P. Grainger. (2023). "SDS-EPFL/PointProcessFilters.jl: v0.1.0 (v0.1.0)." Zenodo. https://doi.org/10.5281/zenodo.8252035
